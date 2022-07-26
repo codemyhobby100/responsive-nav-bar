@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Side Nav</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav" id="nav">
+        <div class="navbar_menu container" id="navbar-menu">
+            <div class="navbar_shape"></div>
+            <div class="navbar_close" id="navbar-close">
+                <i class='bx bx-x'></i>
+            </div>
+
+            <div class="navbar_content">
+                <div class="navbar_mask">
+                    <img src="img1.png" alt="" class="navbar_img">
+                </div>
+
+                <span class="navbar_welcome">Welcome, I'm</span>
+                <h1 class="navbar_name">James <br> Bond</h1>
+            </div>
+
+            <ul class="navbar_list">
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_link">
+                        <i class='bx bx-home'></i> Home
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_link">
+                        <i class='bx bx-user' ></i> About
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_link">
+                        <i class='bx bx-briefcase' ></i> Skills
+                    </a>
+                </li>
+                <li class="navbar_item">
+                    <a href="#home" class="navbar_link">
+                        <i class='bx bx-phone-call' ></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main" id="main">
+        <header class="header" id="header">
+            <nav class="navbar_header container">
+                <a href="#" class="header_logo">
+                    Bond
+                </a>
+                <div class="header_toggle" id="header-toggle">
+                    <i class='bx bx-menu' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <section class="section section-height container" id="home">
+            <h1>Home Page</h1>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
